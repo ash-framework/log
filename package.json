@@ -40,7 +40,9 @@
     "logger",
     "framework"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "pino": "^2.12.4"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "github": "^5.2.2",
@@ -48,6 +50,7 @@
     "projectz": "^1.2.0",
     "snazzy": "^5.0.0",
     "standard": "^8.4.0",
+    "testdouble": "^1.8.0",
     "testem": "^1.12.0",
     "xyz": "^1.0.1"
   },
