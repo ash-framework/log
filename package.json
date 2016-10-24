@@ -1,6 +1,6 @@
 {
   "name": "@ash-framework/log",
-  "description": "Logger for ash framework",
+  "description": "Logger for the Ash framework",
   "version": "0.0.0",
   "license": "MIT",
   "main": "./src/index.js",
