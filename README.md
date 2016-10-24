@@ -39,7 +39,24 @@ Logger for ash framework
 
 
 ## Usage
-Usage instructions go here
+
+Very light class based wrapper for (currently) the [pino](https://www.npmjs.com/package/pino) logger.
+
+```js
+const logger = new Log()
+
+logger.fatal(message)
+logger.error(message)
+logger.warn(message)
+logger.info(message)
+logger.debug(message)
+logger.trace(message)
+```
+
+Notes:
+- When in production, only `error` and `fatal` messages will be logged.
+- When in development messages from `info` up to `fatal` will be logged.
+- When the evenironment variable `DEBUG` is set (to anything), all messages will be logged.
 
 <!-- HISTORY/ -->
 
